@@ -23,3 +23,5 @@ write:
 # We have a large response data (refer to the code) to avoid buffering (more: https://github.com/golang/go/issues/21389)
 custom_write:
 	curl -X GET localhost:4000/custom_write
+
+.PHONY: read custom_read write custom_write
