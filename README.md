@@ -6,4 +6,4 @@ examples demonstrate how to set per-request deadline for reading and/or writing 
 The full article can be found [here](https://medium.com/@miralizoda.komron/8710cecfef5d).
 
 You can also refer to the documentation
-about [`http.ResponseController`](https://pkg.go.dev/net/http#ResponseController).
+about [http.ResponseController](https://pkg.go.dev/net/http#ResponseController).
