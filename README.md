@@ -7,3 +7,5 @@ The full article can be found [here](https://medium.com/@miralizoda.komron/8710c
 
 You can also refer to the documentation
 about [http.ResponseController](https://pkg.go.dev/net/http#ResponseController).
+
+NOTE: that this is not production code by any means.
