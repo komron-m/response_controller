@@ -40,7 +40,7 @@ func CustomWrite(w http.ResponseWriter, r *http.Request) {
 		log.Fatal(err)
 	}
 
-	// set appropriate headers for partial response data
+	// set appropriate headers for stream response
 	w.Header().Set("Content-Type", "text/event-stream")
 	w.Header().Set("Cache-Control", "no-cache")
 	w.Header().Set("Connection", "keep-alive")
